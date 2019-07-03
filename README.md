@@ -1,10 +1,13 @@
 # SEC-HDSCoin
 
-HDS Coin is a projet introduced by Highly Dependable Systems course at IST. The main goal is to implement a secure and distributed server-client system.
+HDS Coin is a projet introduced by Highly Dependable Systems course at IST. The main goal is to implement a secure and distributed ledger that resembles cryptocurrency. This project can withstand collusion between one client and one server assuming a ring of 5 servers.
 
 The 1st stage's description is defined at SEC-1718Project-stage1.pdf
 
-==== HOW TO RUN ====
+
+
+
+## HOW TO RUN
 
 On the root folder run:
 
