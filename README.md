@@ -8,15 +8,15 @@ The 1st stage's description is defined at SEC-1718Project-stage1.pdf
 
 On the root folder run:
 
-mvn clean package
+```mvn clean package```
 
 First run the server:
 
-java -jar Server/target/Server-1.0-SNAPSHOT-jar-with-dependencies.jar
+```java -jar Server/target/Server-1.0-SNAPSHOT-jar-with-dependencies.jar```
 
 Then you can run the client:
 
-java -jar Client/target/Client-1.0-SNAPSHOT-jar-with-dependencies.jar
+```java -jar Client/target/Client-1.0-SNAPSHOT-jar-with-dependencies.jar```
 
 
 Both Client and Server will show a custom shell that let's you execute the commands from the project statement
@@ -26,7 +26,7 @@ We have added three test users Alice, Bob and Charly, to skip the need to genera
 
 To run the tests first run the server, then execute
 
-mvn test
+```mvn test```
 
 
 Bugs: negative value, transaction signature, crash server may cause file corruption.
